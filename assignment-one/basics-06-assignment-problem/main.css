@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#assignment-instructions {
+  color: purple;
+  font-family: Helvetica, sans-serif;
+  
+}
+
+li {
+  font-family: inherit;
+}
+
+li:not(:first-child) {
+  background: black;
+  color: white;
+}
+
+ol li {
+  background: black;
+  color: white;
+}
+
+.second-li code {
+  color: green;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+  background: #eff0f1;
+}
