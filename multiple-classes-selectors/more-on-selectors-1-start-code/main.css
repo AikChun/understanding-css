@@ -14,12 +14,17 @@ a {
     margin: 10px;
 }
 
+a.active {
+    color: #521751;
+}
+
 .main-section {
     height: 800px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc !important;
     padding: 16px;
 }
 
 .highlighted {
+    height: 200px;
     border: 2px solid #fa923f;
 }
